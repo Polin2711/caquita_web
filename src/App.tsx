@@ -27,7 +27,7 @@ function App() {
         <div className="mb-12 animate-fade-in-up animation-delay-500 flex justify-center">
           <div className="scale-125 md:scale-150">
             <img 
-              src="/mascot.png" 
+              src="/assets/mascot.png" 
               alt="ShitRich Mascot" 
               className="w-48 h-48 md:w-64 md:h-64 object-contain drop-shadow-2xl animate-bounce-slow"
             />
