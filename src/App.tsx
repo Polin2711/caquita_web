@@ -16,7 +16,7 @@ function App() {
         {/* Main title */}
         <div className="mb-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 mb-6 tracking-tight">
-            SHITRICH!
+            💩 SHITRICH 💵
           </h1>
           <p className="text-lg md:text-xl text-yellow-400/90 font-bold italic">
             "The 3 P's: Poop. Profit. Paradise."
