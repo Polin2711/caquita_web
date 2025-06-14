@@ -16,12 +16,9 @@ function App() {
       <div className="relative z-10 text-center max-w-4xl mx-auto">
         {/* Main title */}
         <div className="mb-8 animate-fade-in">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 mb-4 tracking-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 mb-6 tracking-tight">
             SHITRICH!
           </h1>
-          <p className="text-xl md:text-2xl text-white/80 font-semibold tracking-wide mb-2">
-            The Ultimate Wealth Generation Experience
-          </p>
           <p className="text-lg md:text-xl text-yellow-400/90 font-bold italic">
             "The 3 P's: Poop. Profit. Paradise."
           </p>
@@ -29,7 +26,9 @@ function App() {
 
         {/* Mascot character */}
         <div className="mb-12 animate-fade-in-up animation-delay-500 flex justify-center">
-          <MascotCharacter />
+          <div className="scale-125 md:scale-150">
+            <MascotCharacter />
+          </div>
         </div>
 
         {/* Launch countdown */}
@@ -41,7 +40,7 @@ function App() {
         </div>
 
         {/* Action buttons */}
-        <div className="mb-8 animate-fade-in-up animation-delay-1500">
+        <div className="mb-8 animate-fade-in-up animation-delay-1500 flex justify-center">
           <ActionButtons />
         </div>
 
