@@ -1,7 +1,6 @@
 import React from 'react';
 import CountdownTimer from './components/CountdownTimer';
 import ActionButtons from './components/ActionButtons';
-import MascotCharacter from './components/MascotCharacter';
 
 function App() {
   return (
@@ -24,10 +23,14 @@ function App() {
           </p>
         </div>
 
-        {/* Mascot character */}
+        {/* Mascot image */}
         <div className="mb-12 animate-fade-in-up animation-delay-500 flex justify-center">
           <div className="scale-125 md:scale-150">
-            <MascotCharacter />
+            <img 
+              src="/src/assets/image copy.png" 
+              alt="ShitRich Mascot" 
+              className="w-48 h-48 md:w-64 md:h-64 object-contain drop-shadow-2xl animate-bounce-slow"
+            />
           </div>
         </div>
 
