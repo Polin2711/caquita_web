@@ -1,6 +1,7 @@
 import React from 'react';
 import CountdownTimer from './components/CountdownTimer';
 import ActionButtons from './components/ActionButtons';
+import MascotCharacter from './components/MascotCharacter';
 
 function App() {
   return (
@@ -26,13 +27,9 @@ function App() {
           </p>
         </div>
 
-        {/* Mascot image */}
+        {/* Mascot character */}
         <div className="mb-12 animate-fade-in-up animation-delay-500 flex justify-center">
-          <img 
-            src="/src/assets/1000068084-removebg-preview.png" 
-            alt="ShitRich Mascot" 
-            className="w-48 h-48 md:w-64 md:h-64 object-contain drop-shadow-2xl animate-bounce-slow"
-          />
+          <MascotCharacter />
         </div>
 
         {/* Launch countdown */}
