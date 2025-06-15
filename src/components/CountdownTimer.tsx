@@ -16,9 +16,8 @@ const CountdownTimer: React.FC = () => {
   });
 
   useEffect(() => {
-    // Set a fixed target date - January 15, 2025 at 12:00 PM UTC
-    // You can change this date to your actual launch date
-    const targetDate = new Date('2025-01-16T12:00:00Z').getTime();
+    // Set target date to June 30, 2025 at 18:00 UTC
+    const targetDate = new Date('2025-06-30T18:00:00Z').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
