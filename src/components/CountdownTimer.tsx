@@ -16,8 +16,9 @@ const CountdownTimer: React.FC = () => {
   });
 
   useEffect(() => {
-    // Set target date (24 hours from now for demo)
-    const targetDate = new Date().getTime() + (24 * 60 * 60 * 1000);
+    // Set a fixed target date - January 15, 2025 at 12:00 PM UTC
+    // You can change this date to your actual launch date
+    const targetDate = new Date('2025-01-15T12:00:00Z').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();
@@ -29,6 +30,14 @@ const CountdownTimer: React.FC = () => {
           hours: Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
           minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
           seconds: Math.floor((difference % (1000 * 60)) / 1000)
+        });
+      } else {
+        // If the countdown has finished, show zeros
+        setTimeLeft({
+          days: 0,
+          hours: 0,
+          minutes: 0,
+          seconds: 0
         });
       }
     }, 1000);
