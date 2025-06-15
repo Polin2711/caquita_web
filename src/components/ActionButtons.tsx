@@ -11,7 +11,7 @@ const ActionButtons: React.FC = () => {
       
       <button className="group w-full sm:w-auto bg-transparent border-2 border-blue-400 hover:border-blue-300 text-blue-400 hover:text-blue-300 font-semibold py-3 px-6 rounded-2xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/25 hover:bg-blue-500/10 flex items-center justify-center gap-3 min-w-[160px]">
         <FileText className="w-5 h-5 group-hover:animate-pulse" />
-        <span className="text-base">READ DOCS</span>
+        <span className="text-base">WHITEPAPER</span>
       </button>
     </div>
   );
