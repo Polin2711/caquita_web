@@ -52,8 +52,8 @@ function App() {
 
         {/* Footer text */}
         <div className="text-white/60 text-sm md:text-base animate-fade-in-up animation-delay-2000">
-          <p>💩 today, billionaire tomorrow.</p>
-          <p className="mt-2">© 2024 ShitRich! • All rights reserved</p>
+          <p>The 3 P's: Poop. Profit. Paradise. • Made with 💖 by Caquita </p>
+          <p className="mt-2">© 2025 ShitRich! • All rights reserved</p>
         </div>
       </div>
     </div>
