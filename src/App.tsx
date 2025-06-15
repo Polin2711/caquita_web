@@ -22,7 +22,7 @@ function App() {
             Empieza en el mundo cripto de la forma más mierda que imaginas.
           </p>
           <p className="text-lg md:text-xl text-yellow-400/90 font-bold italic">
-            Conviértete en leyenda invirtiendo donde nadie se atreve. Bienvenido a ShitRich.
+            Vuélvete rico de la noche a la mañana!
           </p>
         </div>
 
